@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class CardDetailComponent {
 
+  description: string = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit eligendi dignissimos nulla quos fuga perferendis corporis sed, soluta corrupti labore asperiores placeat consectetur sint veniam maiores dolore minima totam!"
+  linkResume: string = "https://google.com"
+
+
 }

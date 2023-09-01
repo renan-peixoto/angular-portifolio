@@ -23,19 +23,32 @@
 .card-about__about > span {
   color: #EDEFF0;
   font-size: 2.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
+
 
 .card-about__links {
   padding: 2rem 0;
 }
 
-
-.card-about__photo {
+.card-about__photo-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
+
+}
+
+
+.card-about__photo {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5rem;
+
 }
 
 .card-about__photo > img {
