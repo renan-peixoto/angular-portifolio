@@ -1,3 +1,10 @@
 .container__home-page {
+  display: flex;
+  flex-direction: column;
   padding: 0 3rem;
 }
+
+.container__card-detail {
+  margin-bottom: 5rem;
+}
+

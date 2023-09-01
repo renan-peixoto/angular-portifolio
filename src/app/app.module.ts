@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardDetailComponent } from './components/card-detail/card-detail.component';
 import { CardAboutComponent } from './components/card-about/card-about.component';
+import { PhotoAboutComponent } from './components/photo-about/photo-about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardAboutComponent } from './components/card-about/card-about.component
     HomeComponent,
     MenuBarComponent,
     CardDetailComponent,
-    CardAboutComponent
+    CardAboutComponent,
+    PhotoAboutComponent
   ],
   imports: [
     BrowserModule,
