@@ -1,0 +1,44 @@
+.container__card-detail {
+  border: 1px solid #FFF;
+  display: flex;
+}
+
+.card-detail__detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 2rem;
+}
+
+.card-detail__detail > h1 {
+  font-size: 2.3rem;
+  color: #EDEFF0;
+}
+
+.card-detail__detail > p {
+  color: #868F9A;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.card-detail__detail > span {
+  color: #53BDBB;
+  font-size: 1.5rem;
+}
+
+.card-detail__links {
+  padding: 2rem 0;
+}
+
+.card-detail__links > h3 > a {
+  padding: .5rem 1rem;
+  border: 2px solid #53BDBB;
+  border-radius: 5px;
+  color: #53BDBB;
+  text-decoration: none;
+}
+
+.card-detail__photo > img {
+  width: 100%;
+  height: auto;
+}

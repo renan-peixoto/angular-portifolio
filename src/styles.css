@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  background-image: url(./assets/grunge-black-concrete-textured-background.jpg);
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  list-style: none;
+}
