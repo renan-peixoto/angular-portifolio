@@ -1,11 +1,7 @@
 <section class="container__card-about">
-
-
-
   <div class="card-about__photo-container">
     <div class="card-about__photo">
-      <app-photo-about class="photo"></app-photo-about>
-
+      <app-photo-about class="photo" [nameProfile]="name"></app-photo-about>
     </div>
     <div class="card-about__links">
       <ul>
@@ -17,16 +13,12 @@
       <ul>
         <li><a href="#">Email</a></li>
       </ul>
-
     </div>
   </div>
 
   <div class="card-about__about">
-    <span>SOBRE</span>
-    <h2>Conheça um pouco sobre mim</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit eligendi dignissimos nulla quos fuga perferendis corporis sed, soluta corrupti labore asperiores placeat consectetur sint veniam maiores dolore minima totam!</p>
-
+    <span>{{ aboutMe.span }}</span>
+    <h2>{{ aboutMe.title }}</h2>
+    <p>{{ aboutMe.text }}</p>
   </div>
 </section>
-
-

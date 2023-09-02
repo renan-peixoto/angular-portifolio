@@ -12,16 +12,16 @@
 
 .card-detail__detail > h1 {
   font-size: 2.3rem;
-  color: #EDEFF0;
+  color: #edeff0;
 }
 
 .card-detail__detail > p {
-  color: #868F9A;
+  color: #868f9a;
   font-size: 2rem;
   padding: 1rem 0;
 }
 .card-detail__detail > span {
-  color: #53BDBB;
+  color: #53bdbb;
   font-size: 1.5rem;
 }
 
@@ -30,10 +30,10 @@
 }
 
 .card-detail__links > h3 > a {
-  padding: .5rem 1rem;
-  border: 2px solid #53BDBB;
+  padding: 0.5rem 1rem;
+  border: 2px solid #53bdbb;
   border-radius: 5px;
-  color: #53BDBB;
+  color: #53bdbb;
   text-decoration: none;
 }
 

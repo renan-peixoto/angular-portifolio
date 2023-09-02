@@ -12,20 +12,20 @@
 
 .card-about__about > h2 {
   font-size: 2.3rem;
-  color: #EDEFF0;
+  color: #edeff0;
 }
 
 .card-about__about > p {
-  color: #868F9A;
+  color: #868f9a;
   font-size: 2.1rem;
   padding: 1rem 0;
 }
 .card-about__about > span {
-  color: #EDEFF0;
+  color: #edeff0;
   font-size: 2.5rem;
   padding-bottom: 3rem;
+  text-transform: uppercase;
 }
-
 
 .card-about__links {
   padding: 2rem 0;
@@ -37,18 +37,14 @@
   justify-content: center;
   align-items: center;
   width: 50%;
-
 }
 
-
 .card-about__photo {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 5.5rem;
-
 }
 
 .card-about__photo > img {
@@ -64,7 +60,6 @@
 }
 
 .card-about__links ul {
-  padding: .625rem;
+  padding: 0.625rem;
   list-style: none;
 }
-

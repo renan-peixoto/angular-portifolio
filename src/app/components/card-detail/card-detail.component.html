@@ -2,12 +2,12 @@
   <div class="card-detail__detail">
     <span>Desenvolvedor Full-Stack</span>
     <h1>Renan Peixoto</h1>
-    <p>{{description}}</p>
+    <p>{{ description }}</p>
     <div class="card-detail__links">
       <h3><a href="{{ linkResume }}">Baixar Curriculo</a></h3>
     </div>
   </div>
   <div class="card-detail__photo">
-    <img src="../../../assets/card-detail img.png" alt="" srcset="">
+    <img [src]="photo" [alt]="photoDescription" />
   </div>
 </section>

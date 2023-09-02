@@ -4,22 +4,20 @@
   justify-content: space-between;
   margin-top: 3.5rem;
   margin-bottom: 6rem;
-
 }
 
 .app-menu-bar__logo {
   width: 20%;
   font-size: 1.5rem;
-  color: #EDEFF0;
+  color: #edeff0;
   font-weight: 600;
 }
 
 .app-menu-bar__logo span {
-  color: #53BDBB
+  color: #53bdbb;
 }
 
 .app-menu-bar__links-content {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,20 +25,22 @@
 }
 
 .app-menu-bar__links {
-
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 4rem;
   font-size: 1.3rem;
-
 }
 
 .app-menu-bar__links ul {
   list-style: none;
 }
 
+.app-menu-bar__links ul li:hover {
+  border-bottom: 2px solid #53bdbb;
+}
+
 .app-menu-bar__links a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
