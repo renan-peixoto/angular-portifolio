@@ -33,7 +33,7 @@
   content: "";
   position: absolute;
   inset: 6px;
-  background: url(../../../assets/grunge-black-concrete-textured-background.jpg);
+  background: url(../../../../../assets/grunge-black-concrete-textured-background.jpg);
   border-radius: 50%;
   z-index: 1;
 }
