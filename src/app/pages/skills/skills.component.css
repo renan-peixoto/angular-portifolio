@@ -1,0 +1,29 @@
+.container__skill-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  height: 100%;
+}
+.container__title {
+  font-size: 2rem;
+  color: #edeff0;
+  margin-bottom: 2rem;
+}
+
+.container__skills {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.container__skills ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

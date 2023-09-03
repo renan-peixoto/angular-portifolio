@@ -10,4 +10,5 @@ export class MenuBarComponent {
   about: string = 'Sobre';
   skills: string = 'Skills';
   projects: string = 'Projetos';
+  contact: string = 'Contato';
 }

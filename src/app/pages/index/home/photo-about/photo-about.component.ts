@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./photo-about.component.css'],
 })
 export class PhotoAboutComponent {
-  photoProfile: string = 'https://github.com/renan-peixoto.png';
+  @Input() photoProfile: string = '';
   @Input() nameProfile: string | undefined;
   contatPage: string = '#';
 

@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
   background-image: url(./assets/grunge-black-concrete-textured-background.jpg);
-  color: #FFF;
+  color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Kanit', sans-serif;;
+  font-family: "Kanit", sans-serif;
 }
 
 a {

@@ -1,0 +1,44 @@
+<section class="container__app-menu-bar">
+  <div class="app-menu-bar__logo">
+    <h1>
+      <span> &lt;&#47; </span>
+      {{ nameLogo }}
+      <span> &gt; </span>
+    </h1>
+  </div>
+  <div class="app-menu-bar__links-content">
+    <div class="app-menu-bar__links">
+      <ul>
+        <li>
+          <a
+            [routerLink]="['']"
+            [routerLinkActive]="['activated']"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ about }}</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a [routerLink]="['skills']" [routerLinkActive]="['activated']">{{
+            skills
+          }}</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a [routerLink]="['projects']" [routerLinkActive]="['activated']">{{
+            projects
+          }}</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a [routerLink]="['contact']" [routerLinkActive]="['activated']">{{
+            contact
+          }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
