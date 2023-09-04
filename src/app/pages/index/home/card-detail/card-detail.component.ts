@@ -12,8 +12,6 @@ export class CardDetailComponent {
   linkResume: string = '';
   @Input()
   photo: Photo;
-  // photo: string = '';
-  // photoDescription: string = '';
 
   constructor() {
     this.photo = {

@@ -1,45 +1,69 @@
 <section class="container__skill-page">
   <div class="container__title">Skills</div>
   <div class="container__skills">
-    <dl>
-      <dt>JAVASCRIPT</dt>
-      <dd>
-        <img
-          src="https://th.bing.com/th/id/OIP.DN7ToydkJZEdVaJVK_NhvwHaHa?pid=ImgDet&rs=1"
-          alt=""
-          width="80px"
-        />
-      </dd>
-      <dd>
-        <progress class="progress-bar" value="80" max="100">80%</progress>
-      </dd>
-    </dl>
-    <dl>
-      <dt>JAVA</dt>
-      <dd>
-        <img
-          src="https://th.bing.com/th/id/OIP.qUsonnBsHnioyl78SFCZfQHaGa?pid=ImgDet&rs=1"
-          alt=""
-          width="80px"
-          height="80px"
-        />
-      </dd>
-      <dd>
-        <progress class="progress-bar" value="70" max="100">70%</progress>
-      </dd>
-    </dl>
-    <dl>
-      <dt>Angular</dt>
-      <dd>
-        <img
-          src="https://th.bing.com/th/id/OIP.phwoFGJzav3WTPP_9IIqPgHaH1?pid=ImgDet&rs=1"
-          alt=""
-          width="80px"
-        />
-      </dd>
-      <dd>
-        <progress class="progress-bar" value="30" max="100">30%</progress>
-      </dd>
-    </dl>
+    <skill-card
+      id="js"
+      tecnology="TYPESCRIPT"
+      [tecnologyImage]="{
+        src: 'https://th.bing.com/th/id/OIP.Nwx4uWwZ69sVFcANGG_YhgHaHa?pid=ImgDet&rs=1',
+        alt: 'typescript',
+      }"
+      [progressBar]="{
+        value: '70',
+        max: '100',
+      }"
+    ></skill-card>
+
+    <skill-card
+      id="java"
+      tecnology="JAVA"
+      [tecnologyImage]="{
+        src: 'https://th.bing.com/th/id/OIP.qUsonnBsHnioyl78SFCZfQHaGa?pid=ImgDet&rs=1',
+        alt: 'java',
+      }"
+      [progressBar]="{
+        value: '70',
+        max: '100',
+      }"
+    ></skill-card>
+
+    <skill-card
+      id="angular"
+      tecnology="Angular"
+      [tecnologyImage]="{
+        src: 'https://th.bing.com/th/id/OIP.Cg8_ausA5jFMCqCQ1nglEQHaHa?pid=ImgDet&rs=1',
+        alt: 'angular',
+      }"
+      [progressBar]="{
+        value: '30',
+        max: '100',
+      }"
+    ></skill-card>
+
+    <skill-card
+      id="spring-boot"
+      tecnology="spring-boot"
+      [tecnologyImage]="{
+        src: 'https://th.bing.com/th/id/R.f957456ae11eea7899d3feb8bb8ab625?rik=m%2fjzyiqtPP3dHg&pid=ImgRaw&r=0',
+        alt: 'springboot',
+      }"
+      [progressBar]="{
+        value: '70',
+        max: '100',
+      }"
+    ></skill-card>
+
+    <skill-card
+      id="sql"
+      tecnology="sql"
+      [tecnologyImage]="{
+        src: 'https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.jpg',
+        alt: 'sql',
+      }"
+      [progressBar]="{
+        value: '50',
+        max: '100',
+      }"
+    ></skill-card>
   </div>
 </section>

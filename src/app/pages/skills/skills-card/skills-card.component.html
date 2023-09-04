@@ -1,0 +1,17 @@
+<div class="container__skill">
+  <dl>
+    <dt>{{ tecnology }}</dt>
+    <dd>
+      <img [src]="tecnologyImage.src" [alt]="tecnologyImage.alt" />
+    </dd>
+    <dd>
+      <progress
+        class="progress-bar"
+        [value]="progressBar.value"
+        [max]="progressBar.max"
+      >
+        {{ progressBar.value }}
+      </progress>
+    </dd>
+  </dl>
+</div>
