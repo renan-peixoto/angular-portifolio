@@ -6,3 +6,10 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+footer {
+  background: url("../assets/grunge-black-concrete-textured-background.jpg");
+  filter: brightness(0.7);
+  background-size: cover;
+  padding: 1rem;
+}

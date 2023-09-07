@@ -5,7 +5,12 @@
 >
   <div class="project__card__first" *ngIf="hideOriginal">
     <div class="project__card__first-image">
-      <img [src]="photo.src" [alt]="photo.alt" />
+      <img
+        [src]="photo.src"
+        [alt]="photo.alt"
+        [width]="photo.width"
+        [height]="photo.height"
+      />
     </div>
 
     <div class="project__card__first-description">
@@ -25,7 +30,7 @@
       </ul>
     </div>
     <div class="project__card_second-btn">
-      <a href="#">
+      <a [href]="link">
         <button type="button">Acessar</button>
       </a>
     </div>

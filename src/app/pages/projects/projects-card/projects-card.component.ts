@@ -21,7 +21,12 @@ export class ProjectsCardComponent implements OnInit {
   photo: Photo = {
     src: '',
     alt: '',
+    width: '',
+    height: '',
   };
+
+  @Input()
+  link: string = '';
 
   constructor() {}
 
@@ -39,4 +44,6 @@ export class ProjectsCardComponent implements OnInit {
 type Photo = {
   src: string;
   alt: string;
+  width?: string;
+  height?: string;
 };
