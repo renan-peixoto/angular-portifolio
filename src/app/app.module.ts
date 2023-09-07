@@ -7,9 +7,10 @@ import { IndexModule } from './pages/index/home/index.module';
 import { SkillsModule } from './pages/skills/skills.module';
 import { ProjectsModule } from './pages/projects/projects.module';
 import { MenuBarComponent } from './shared/menu-bar/menu-bar.component';
+import { FooterBarComponent } from './shared/footer-bar/footer-bar.component';
 
 @NgModule({
-  declarations: [AppComponent, MenuBarComponent],
+  declarations: [AppComponent, MenuBarComponent, FooterBarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

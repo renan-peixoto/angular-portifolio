@@ -8,7 +8,6 @@ import { Component, Input } from '@angular/core';
 export class PhotoAboutComponent {
   @Input() photoProfile: string = '';
   @Input() nameProfile: string | undefined;
-  contatPage: string = '#';
 
   constructor() {}
 }

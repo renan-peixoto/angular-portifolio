@@ -1,0 +1,22 @@
+.container__projects-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  gap: 5rem;
+
+  align-items: center;
+  margin: 2rem 0;
+  height: 100%;
+}
+
+.container__projects-title {
+  text-transform: uppercase;
+}
+
+.container__projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  flex-wrap: wrap;
+  gap: 3rem;
+}

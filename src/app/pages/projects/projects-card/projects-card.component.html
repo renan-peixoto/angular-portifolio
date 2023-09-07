@@ -1,0 +1,33 @@
+<div
+  class="project__card"
+  (mouseenter)="hideOriginalDiv()"
+  (mouseleave)="showOriginalDiv()"
+>
+  <div class="project__card__first" *ngIf="hideOriginal">
+    <div class="project__card__first-image">
+      <img [src]="photo.src" [alt]="photo.alt" />
+    </div>
+
+    <div class="project__card__first-description">
+      <h1>{{ project }}</h1>
+      <p>{{ description }}</p>
+    </div>
+  </div>
+
+  <div class="project__card__second" *ngIf="!hideOriginal">
+    <div class="project__card__second-description">
+      <h1>{{ project }}</h1>
+      <p>{{ description }}o</p>
+    </div>
+    <div class="project__card__second-tags">
+      <ul *ngFor="let tag of tags">
+        <li>{{ tag }}</li>
+      </ul>
+    </div>
+    <div class="project__card_second-btn">
+      <a href="#">
+        <button type="button">Acessar</button>
+      </a>
+    </div>
+  </div>
+</div>

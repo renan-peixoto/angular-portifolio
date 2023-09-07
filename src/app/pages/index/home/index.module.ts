@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 import { CardAboutComponent } from './card-about/card-about.component';
 import { CardDetailComponent } from './card-detail/card-detail.component';
 import { PhotoAboutComponent } from './photo-about/photo-about.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,6 @@ import { PhotoAboutComponent } from './photo-about/photo-about.component';
     PhotoAboutComponent,
   ],
   exports: [HomeComponent],
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
 })
 export class IndexModule {}

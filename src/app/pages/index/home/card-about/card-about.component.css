@@ -27,10 +27,6 @@
   text-transform: uppercase;
 }
 
-.card-about__links {
-  padding: 2rem 0;
-}
-
 .card-about__photo-container {
   display: flex;
   flex-direction: column;
@@ -50,16 +46,4 @@
 .card-about__photo > img {
   width: 100%;
   height: auto;
-}
-
-.card-about__links {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: center;
-}
-
-.card-about__links ul {
-  padding: 0.625rem;
-  list-style: none;
 }
